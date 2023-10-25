@@ -1,7 +1,7 @@
-Requirements:
-ntcp
--numpy
+Requirements:\n
+ntcp\n
+-numpy\n
 
-ImgProcessing
--pydicom
--SimpleITK
+ImgProcessing\n
+-pydicom\n
+-SimpleITK\n
