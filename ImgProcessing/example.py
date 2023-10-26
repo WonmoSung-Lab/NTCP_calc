@@ -14,7 +14,7 @@ i.mask2arr(ct_nii,mask_fin,'liver')     #adjust default: write_img = False, outp
 mask_arr = i.mask_arr
 mask_nii = i.mask_nii
 
-'''result plot'''
+'''structure mask plot'''
 import matplotlib.pyplot as plt
 import numpy as np
 
