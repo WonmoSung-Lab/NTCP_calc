@@ -3,9 +3,9 @@
 from calc import calc
 
 c = calc()
-arr = c.diffDVH2arr("dvh_example.xlsx")     # arr = [[dose],[volume]]
-c.get_geud(c.dvh_arr, a=23.274)                       # default a = 23.274 /when a is set to 1, it is equal to mean dose.
-c.get_ntcp(c.geud, d50=6.235)                          # default d50 = 6.235, m = 0.498
+arr = c.diffDVH2arr("dvh_example.xlsx")                 # arr = [[dose],[volume]]
+c.get_geud(c.dvh_arr, a=23.274)                         # default a = 23.274 /when a is set to 1, it is equal to mean dose.
+c.get_ntcp(c.geud, d50=6.235)                           # default d50 = 6.235, m = 0.498
 print(c.ntcp)
 
 
